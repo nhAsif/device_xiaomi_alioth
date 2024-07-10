@@ -10,13 +10,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Evolution XYZ stuff.
 BUILD_WITH_GAPPS := true
+TARGET_USES_PICO_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Build Type Flags
-EVO_BUILD_TYPE = DEVELOPMENT
+EVO_BUILD_TYPE = FAN-EDITON
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
