@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Evolution XYZ stuff.
 BUILD_WITH_GAPPS := true
-TARGET_USES_PICO_GAPPS := true
+TARGET_USES_PICO_GAPPS := false
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_SUPPORTS_QUICK_TAP := true
